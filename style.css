@@ -18,8 +18,8 @@ main {
     width: 100vw;
 }
 .container {
-    width: clamp(279px, 74.4vw - 132px, 384px);
-    height: clamp(453px, 120.8vw - 315px, 522px);
+    width: clamp(279px, 74.4vw - 132px, 336px);
+    height: clamp(453px, 120.8vw - 315px, 474px);
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -43,6 +43,11 @@ main {
     font-size: 24px;
     font-weight: 800;
     line-height: 150%;
+    color: rgb(17, 17, 17);
+    transition: all .3s ease-in-out;
+}
+.title:hover {
+    color: rgb(244, 208, 78);
 }
 .subtitle {
     color: rgb(127, 127, 127);
